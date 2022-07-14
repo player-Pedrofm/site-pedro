@@ -1,0 +1,148 @@
+.topo{
+    background-color: deepskyblue;
+    font-size: 16px;
+    padding: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.menu{
+    width: auto;
+    margin: auto;
+    background-color: rgb(240, 240, 240);
+    padding-left: 80px;
+    border-bottom: solid 1px black;
+    text-align: center;
+}
+.itens-do-menu{
+    display: inline-block;
+    padding: 16px;
+    margin: 4px;
+    margin-right: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: auto;
+    font-weight: bold;
+}
+.itens-do-menu-active{
+    display: inline-block;
+    padding: 16px;
+    margin: 4px;
+    margin-right: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: auto;
+    background-color: rgb(235, 235, 41);
+    font-weight: bold;
+    border-radius: 15px;
+}
+.container-fluid{
+    background-color: deepskyblue;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto; 
+}
+.col-sm-4{
+    text-decoration: none;
+}
+.itens-do-menu-footer{
+    display: inline-block;
+    padding: 16px;
+    margin: 4px;
+    margin-right: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: auto;
+    font-weight: bold;
+}
+.itens-do-menu:hover{
+    border: 3px solid black;
+    background-color:  rgb(235, 235, 41);
+    transition: 1s;
+    border-radius: 20px;
+}
+.portifolio{
+   display: grid;
+   gap: 40px;
+   grid-template-columns: repeat(auto-fit, minimax(300px, ifr));
+   padding-top: 104px;
+   padding-bottom: 104px;
+   padding-left: 40px;
+   padding-right: 40px;
+   background-color: #f5f5f5;
+   }
+   .portifolio-item{
+       display: flexbox;
+       justify-content: center;
+       align-items: center;
+   }
+   .img-portifolio{
+       border-radius: 16px;
+   }
+   .legenda-portifolio{
+       font-size: 18px;
+       letter-spacing: 1px;
+       margin: 8px;
+       text-align: center;
+   }
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+}
+.portfolio{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-top: 104px;
+    padding-bottom: 104px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #f5fffb;
+  }
+  .portfolio-item{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-portfolio{
+    border-radius: 16px;
+  }
+  .legenda-portfolio{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 8px;
+    text-align: center;
+  }
+  .bloco-imagem-paginas{
+    height: 200px;
+    width: 100%;
+    background: url(../img/espaco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .bg-txt{
+    background-color: deepskyblue;
+    opacity: 0.7;
+    height: 100%;
+  }
+  .bg-txt p{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+  }
+  a{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+
